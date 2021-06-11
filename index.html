@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
+	
+
+	
+	
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+	crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="custom-style.css">
+</head>
+<body style="background-color:rgb(242, 242, 242);">
+
+
+
+<!--<header class="p-3 bg-transparent text-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="p-3 bg-white nav-link px-2 text-dark">Eraklient</a></li>
+          <li><a href="#" class="nav-link px-2 text-dark">Äriklient</a></li>
+        </ul>
+
+
+
+        <div class="text-end">
+        </div>
+      </div>
+    </div>
+  </header>-->
+
+<header class="p-3 bg-white text-dark">
+    <div class="container">
+	
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+	  
+
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+
+		
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+		<li><a href="#" class="nav-link px-2 text-dark"><img src="logo.png" alt="logo" style="height:40px;"></a></li>
+          <li><a href="#" class="nav-link px-2 text-dark"><p id="button">Mobiil</p></a></li>
+          <li><a href="#" class="nav-link px-2 text-dark"><p id="button">TV</p></a></li>
+          <li><a href="#" class="nav-link px-2 text-dark"><p id="button">Internet</p></a></li>
+          <li><a href="#" class="nav-link px-2 text-dark"><p id="button">Lisateenused</p></a></li>
+          <li><a href="#" class="nav-link px-2 text-dark"><p id="button">E-pood</p></a></li>
+		  <li><a href="#" class="nav-link px-2 text-dark"><p id="button">Pakkumised</p></a></li>
+		  <li><a href="#" class="nav-link px-2 text-dark"><p id="button">Abi</p></a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        
+      </div>
+    </div>
+  </header>
+ 
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<div class="container">
+		  <div class="position-relative align-items-center overflow-hidden d-flex flex-wrap p-3 p-md-3 m-md-3 text-start bg-transparent">
+			<div class="col-md-4 p-lg-3 mx-3 my-5">
+			  <h1 class="display-5 fw-bold" style="color:rgb(153, 10, 227);">JAGA PIIRAMATUT PAKETTI</h1>
+			  <p class="lead fw-normal">Mobiilse Elu Piiramatut paketti saad jagada kuni 5 seadme või kasutaja vahel.</p>
+			  <a id="button0" class="btn btn btn-lg btn-secondary rounded-pill" href="#";>VAATAN LÄHEMALT</a>
+			</div>
+		   <div class="bg-image col-md-5 p-lg-5 mx-auto my-5 position-absolute top-0 start-50" style="background-image: url('main-background.png'); height: 483px; 
+					background-size:100%; background-repeat:no-repeat;">
+
+			</div>
+			<div class="product-device shadow-sm d-none d-md-block"></div>
+			<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+		  </div>
+		</div>
+	</div>
+
+	<div class="carousel-item">
+		<div class="container">
+		  <div class="position-relative align-items-center overflow-hidden d-flex flex-wrap p-3 p-md-3 m-md-3 text-start bg-transparent">
+			<div class="col-md-4 p-lg-3 mx-3 my-5">
+			  <h1 class="display-5 fw-bold" style="color:rgb(153, 10, 227);">KUI JAGADA, SIIS PARIMAT</h1>
+			  <p class="lead fw-normal">Jaga Telia TV-d sõprade ja sugulastega kuni 5 vaatajakoha vahel. Nii saab igaüks nautida meelepäraseid filme, sarju ja saateid just endale sobival ajal.</p>
+			  <a id="button0" class="btn btn btn-lg btn-secondary rounded-pill" href="#";>VAATAN LÄHEMALT</a>
+			</div>
+		   <div class="bg-image col-md-5 p-lg-5 mx-auto my-5 position-absolute top-0 start-50" style="background-image: url('main-background2.png'); height: 483px; 
+					background-size:100%; background-repeat:no-repeat;">
+
+			</div>
+			<div class="product-device shadow-sm d-none d-md-block"></div>
+			<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+		  </div>
+		</div>
+	</div>
+
+	<div class="carousel-item">
+		<div class="container">
+		  <div class="position-relative align-items-center overflow-hidden d-flex flex-wrap p-3 p-md-3 m-md-3 text-start bg-transparent">
+			<div class="col-md-4 p-lg-3 mx-3 my-5">
+			  <h1 class="display-5 fw-bold" style="color:rgb(153, 10, 227);">TELIA 1 KLIENT VÕIDAB ALATI</h1>
+			  <p class="lead fw-normal">Liitu Telia 1-ga ja naudi kiiremat internetti, tasuta filme ning kuni 100 € aastast säästu.</p>
+			  <a id="button0" class="btn btn btn-lg btn-secondary rounded-pill" href="#";>VAATAN LÄHEMALT</a>
+			</div>
+		   <div class="bg-image col-md-5 p-lg-5 mx-auto my-5 position-absolute top-0 start-50" style="background-image: url('main-background3.png'); height: 483px; 
+					background-size:100%; background-repeat:no-repeat;">
+
+			</div>
+			<div class="product-device shadow-sm d-none d-md-block"></div>
+			<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+		  </div>
+		</div>
+	</div>
+	  <!-- Left and right controls -->
+	  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	  </a>
+	  <a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	  </a>
+</div>
+</div>
+
+
+
+<div class="container gx-4 bg-white">
+	<div class="row border-bottom">
+		<div id="MobilRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal border-end"><img src="mobiil.png">Mobiilipaketid.</p></a>
+		</div>
+		<div id="TVRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="TV.png">TV.</p></a>
+		</div>
+		<div id="KoduRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="Net.png">Koduinternet.</p></a>
+		</div>
+		<div id="TeliaRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="Telia.png">Telia 1</p></a>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div id="NutiRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="Nuti.png">Nutitelefonid</p></a>
+		</div>
+		<div id="IseRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="Ise.png">Iseteenindus</p></a>
+		</div>
+		<div id="ArvedRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="Arved.png">Arved</p></a>
+		</div>
+		<div id="IntRequest" class="col-sm">
+		<a href="#" class="nav-link px-2 text-dark"><p id="button" class="lead fw-normal"><img src="5g.png">Mobiilne internet</p></a>
+		</div>
+	</div>
+</div>
+
+
+<div class="container mt-5 border-top">
+
+	<h2 class="heading">UUDISED</h2>
+	<div class="row mt-3 mb-0">
+		<div class="col-md-4 fs-6"><p>24.mai 2021</p></div>
+		<div class="col-md-4 fs-6"><p>24.mai 2021</p></div>
+		<div class="col-md-4 fs-6"><p>04.mai 2021</p></div>
+	</div>
+	<div class="row mt-0">
+		<div class="col-md-4 fw-bold text-decoration-underline lh-1"><a href="#" class="nav-link px-2 text-dark"><p id="button3">Telia avas Tartus oma esimese iseteenindusesinduse</p></a></div>
+		<div class="col-md-4 fw-bold text-decoration-underline lh-1"><a href="#" class="nav-link px-2 text-dark"><p id="button3">Telia tehisintellekt hoiatab kliente äikese eest SMS-iga.</p></a></div>
+		<div class="col-md-4 fw-bold text-decoration-underline lh-1"><a href="#" class="nav-link px-2 text-dark"><p id="button3">IT-sektori Aasta Tegu 2020: Telia 5G võrgu avamine</p></a></div>
+	</div>
+	<div style=":hover background-color:rgb(153, 10, 227); color:rgb(153, 10, 227); ">
+	<a id="button2" class="btn btn-secondary btn btn-lg rounded-pill mt-5 bg-white" style="color:rgb(153, 10, 227); font-weight: bold; font-size: 12px;" href="test2.html";><p>VAATAN KÕIKI UUDISEID</p></a>
+	</div>
+</div>
+	<div style="position:fixed; bottom:0; right:0%;" align="center">
+		<a href=><img src="images/banner1.gif" width="400" height="75" id="adBanner" border="0" alt="ad banner" /></a>
+	</div>
+
+	<div class="col-md-5 p-lg-5 mx-auto my-5">
+		<h1 class="display-5 fw-bold" style="color:rgb(153, 10, 227);">PAKKUMISED</h1>
+		<img src="Seadmepakk.png" id="myPicture" width="305" height="502" alt="Slideshow" />
+		<h2><a class="btn btn-secondary btn btn-lg rounded-pill mt-5 bg-white" style="color:rgb(153, 10, 227); font-weight: bold; font-size: 12px;" style="color:rgb(153, 10, 227);" href="previous.html" id="prevLink">&lt;&lt; EELMINE</a>&nbsp;&nbsp;<a class="btn btn-secondary btn btn-lg rounded-pill mt-5 bg-white position-relative" style="color:rgb(153, 10, 227); font-weight: bold; font-size: 12px;" style="color:rgb(153, 10, 227);" href="next.html" id="nextLink">JÄRGMINE &gt;&gt;</a></h2>
+	</div>
+<script type="text/javascript" src="custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+crossorigin="anonymous"></script>
+</body>
+</html>

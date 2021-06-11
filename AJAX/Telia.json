@@ -1,0 +1,14 @@
+		<div class="container">
+		  <div class="position-relative align-items-center overflow-hidden d-flex flex-wrap p-3 p-md-3 m-md-3 text-start bg-transparent">
+			<div class="col-md-4 p-lg-3 mx-3 my-5">
+			  <h1 class="display-5 fw-bold" style="color:rgb(153, 10, 227);">TELIA !</h1>
+			  <p class="lead fw-normal">Telia 1-ga saad 2 x kiirema koduinterneti, 9,9% järelmaksu intressi ja 2 filmi kuus tasuta.</p>
+			</div>
+		   <div class="bg-image col-md-5 p-lg-5 mx-auto my-5 position-absolute top-0 start-50" style="background-image: url('Teliaa.png'); height: 483px; 
+					background-size:100%; background-repeat:no-repeat;">
+
+			</div>
+			<div class="product-device shadow-sm d-none d-md-block"></div>
+			<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+		  </div>
+		</div>
